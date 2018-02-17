@@ -7,5 +7,6 @@ const socket = socketCluster.connect({
 });
 
 socket.on('connect', () => logger.info('CONNECTED'));
+socket.on('error', (error) => logger.error('socket error: ', error));
 
 module.exports = socket;
