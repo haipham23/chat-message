@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "chat-ms": "^1.0.5",
+    "chat-rp": "^1.0.2",
     "dotenv": "^5.0.0",
     "mongoose-timestamp": "^0.6.0",
     "socketcluster-client": "^10.0.1"
